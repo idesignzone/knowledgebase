@@ -2,11 +2,11 @@
   <Layout :sidebar="false">
     <div class="content">
       <h1>{{ $static.metadata.siteName }} - {{ this.description }}</h1>
-      <nav>
+      <nav style="width: 300px; margin: 0 auto;">
         <!-- To use other icons here, you need to import them in the Shortcut component -->
-        <Shortcut link="/getting-started" text="Introduction" icon="play-icon" />
-        <Shortcut link="/theme-configuration" text="Configuration" icon="sliders-icon" />
-        <Shortcut link="/theme-configuration#changing-colors" text="Change colors" icon="eye-icon" />
+        <Shortcut link="/getting-started" text="Gridbox" icon="play-icon" />
+<!--        <Shortcut link="/theme-configuration" text="Configuration" icon="sliders-icon" />-->
+<!--        <Shortcut link="/theme-configuration#changing-colors" text="Change colors" icon="eye-icon" />-->
       </nav>
       <GitLink class="git" size="large" />
     </div>
@@ -32,14 +32,14 @@ export default {
   },
   data() {
     return {
-      description: 'Knowledge Base for iDesignzone products'
+      description: 'Knowledge Base'
     }
   },
   metaInfo() {
     return {
       title: this.description,
       meta: [
-        { key: 'description', name: 'description', content: 'Knowledge Base for iDesignzone products' }
+        { key: 'description', name: 'description', content: 'Knowledge Base' }
       ]
     }
   }
