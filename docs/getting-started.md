@@ -6,7 +6,7 @@ slug: getting-started
 ---
 ## What is Gridbox
 
-Gridbox is a Gridsome website that uses Wordpress as backend. In other words Gridbox is a headless theme for Wordpress.
+Gridbox is a headless [Wordpress](https://wordpress.org/ "WordPress") website builder that makes use of [Wordpress](https://wordpress.org/ "WordPress") backend and default [Gutenberg](https://wordpress.org/gutenberg/ "Gutenberg") editor to create and manage your website content and display in a [Gridsome](https://gridsome.org/ "Gridsome") website
 
 ## Local installation
 
