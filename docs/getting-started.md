@@ -27,8 +27,8 @@ Traditional [WordPress](https://wordpress.org/ "WordPress") consist of the admin
 
 There are 2 major stages for setting up your project locally
 
-1. Installing WordPress and configuring the backend
-2. Running the Gridsome website
+1. Installing WordPress and configuring the back-end
+2. Running the Gridsome front-end
 
 ```bash
 git clone https://github.com/samuelhorn/jamdocs project-name
