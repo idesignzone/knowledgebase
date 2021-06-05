@@ -16,7 +16,7 @@ function addStyleResource (rule) {
 }
 
 module.exports = {
-  siteName: 'iDesignzone',
+  siteName: 'Gridbox',
   siteUrl: 'https://knowledgebase.idesignzone.com',
   templates: {
     Doc: '/:slug',

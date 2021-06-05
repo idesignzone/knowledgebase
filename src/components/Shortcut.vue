@@ -2,8 +2,7 @@
   <article>
     <h2>
       <g-link :to="link">
-<!--        <component :is="icon"></component>-->
-        <g-image src="../assets/img/gridbox-logo-b.svg" width="100" style="margin-bottom: 15px;"></g-image>
+        <component :is="icon"></component>
         {{ text }}
       </g-link>
     </h2>

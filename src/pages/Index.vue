@@ -1,12 +1,13 @@
 <template>
   <Layout :sidebar="false">
     <div class="content">
-      <h1>{{ $static.metadata.siteName }} - {{ this.description }}</h1>
-      <nav style="width: 300px; margin: 0 auto;">
+      <g-image src="../assets/img/gridbox-logo-b.svg" width="80" style="margin: 1rem auto 0 auto"></g-image>
+      <h1>{{ $static.metadata.siteName }} {{ this.description }}</h1>
+      <nav>
         <!-- To use other icons here, you need to import them in the Shortcut component -->
-        <Shortcut link="/getting-started" text="Gridbox" icon="play-icon" />
-<!--        <Shortcut link="/theme-configuration" text="Configuration" icon="sliders-icon" />-->
-<!--        <Shortcut link="/theme-configuration#changing-colors" text="Change colors" icon="eye-icon" />-->
+        <Shortcut link="/getting-started" text="Introduction" icon="play-icon" />
+        <Shortcut link="/theme-configuration" text="Configuration" icon="sliders-icon" />
+        <Shortcut link="/theme-configuration#changing-colors" text="Design System" icon="eye-icon" />
       </nav>
       <GitLink class="git" size="large" />
     </div>
@@ -32,7 +33,7 @@ export default {
   },
   data() {
     return {
-      description: 'Knowledge Base'
+      description: 'Documentation'
     }
   },
   metaInfo() {
@@ -55,7 +56,7 @@ export default {
 h1 {
   text-align: center;
   max-width: 600px;
-  margin: 1.5em auto 1.5em;
+  margin: .5em auto 1.5em;
 
   @include respond-above(md) {
     max-width: 1000px;
