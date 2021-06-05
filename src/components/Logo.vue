@@ -1,13 +1,22 @@
 <template>
   <g-link to="/" class="logo" title="Back to home">
     <transition name="theme">
-      <div v-if="color == 'dark'">
-        <g-image src="~/assets/img/logo-bright.svg" alt="logo" />
+      <div v-if="color == 'dark'" style="display: flex;">
+        <g-image src="~/assets/img/iDesignzone.svg" alt="logo" />
+        <h2 style="line-height: 0;margin-left:10px;">iDesignzone</h2>
+        <div style="margin-left:30px;color: #fff;">
+          <h2 style="line-height: 0;margin-bottom: 8px;font-size: 30px;margin-top: 12px;">iDesignzone</h2>
+          <span style="margin-top: -15px;">Knowledge Base</span>
+        </div>
       </div>
     </transition>
     <transition name="theme">
-      <div v-if="color == 'bright'">
-        <g-image src="~/assets/img/logo-dark.svg" alt="logo" />
+      <div v-if="color == 'bright'" style="display: flex;">
+        <g-image src="~/assets/img/iDesignzone.svg" alt="logo" />
+        <div style="margin-left:30px;">
+          <h2 style="line-height: 0;margin-bottom: 8px;font-size: 30px;margin-top: 12px;">iDesignzone</h2>
+          <span style="margin-top: -15px;">Knowledge Base</span>
+        </div>
       </div>
     </transition>
   </g-link>

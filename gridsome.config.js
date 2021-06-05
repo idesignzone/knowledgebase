@@ -17,7 +17,7 @@ function addStyleResource (rule) {
 
 module.exports = {
   siteName: 'Jamdocs',
-  siteUrl: 'https://jamdocs.samuelhorn.com',
+  siteUrl: 'https://knowledgebase.idesignzone.com',
   templates: {
     Doc: '/:slug',
   },
