@@ -6,11 +6,11 @@ slug: getting-started
 ---
 ## What is Gridbox
 
-Gridbox is a headless Wordpress website builder that makes use of [Wordpress](https://wordpress.org/ "WordPress") backend and default [Gutenberg](https://wordpress.org/gutenberg/ "Gutenberg") editor to create and manage your website content and display in a [Gridsome](https://gridsome.org/ "Gridsome") website. 
+Gridbox is a headless Wordpress website builder that makes use of [Wordpress](https://wordpress.org/ "WordPress") and its default [Gutenberg](https://wordpress.org/gutenberg/ "Gutenberg") editor to create and manage your website content and display in a [Gridsome](https://gridsome.org/ "Gridsome") website. 
 
 ## Prerequisite
 
-Traditional [WordPress](https://wordpress.org/ "WordPress") consist of the admin panel and the front-end that are tied together. A headless WordPress in the other hand do separate these. Make sure your development environment is ready for both back-end and front-end. 
+Traditional [WordPress](https://wordpress.org/ "WordPress") consist of the admin panel and the website that are tied together. A headless WordPress in the other hand do separate these. Make sure your development environment is ready for both back-end and front-end. 
 
 **Recommended setup to run WordPress**
 
