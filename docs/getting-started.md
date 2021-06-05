@@ -33,5 +33,9 @@ There are 2 major stages for setting up your project locally
 ```bash
 git clone https://github.com/samuelhorn/jamdocs project-name
 cd project-name
-gridsome develop
+gridsome develop	
 ```
+
+## Online installation
+
+There are plenty of options when it comes to deploying your application online and I am going to walk you through few of the best options available. 
