@@ -1,10 +1,10 @@
 <template>
   <button id="themeSwitch" @click="toggleTheme()" aria-label="Switch theme between light and dark">
     <transition name="theme">
-      <moon-icon v-if="theme == 'bright'" class="moon" />
+      <sun-icon v-if="theme == 'dark'" class="sun" />
     </transition>
     <transition name="theme">
-      <sun-icon v-if="theme == 'dark'" class="sun" />
+      <moon-icon v-if="theme == 'bright'" class="moon" />
     </transition>
   </button>
 </template>
@@ -28,8 +28,8 @@ export default {
       const body = document.querySelector('body')
 
       if (process.isClient && localStorage.getItem('theme') === null) {
-        localStorage.setItem('theme', 'bright')
-        self.theme = 'bright'
+        localStorage.setItem('theme', 'dark')
+        self.theme = 'dark'
       } 
       if (process.isClient) {
         body.classList.add(localStorage.getItem('theme'))
@@ -41,16 +41,16 @@ export default {
       const body = document.querySelector('body')
 
       if (process.isClient) {
-        if (body.classList.contains('dark')) {
-          localStorage.setItem('theme', 'bright');
-          body.classList.remove('dark')
-          body.classList.add('bright')
-          self.theme = 'bright'
-        } else {
+        if (body.classList.contains('bright')) {
           localStorage.setItem('theme', 'dark');
           body.classList.remove('bright')
           body.classList.add('dark')
           self.theme = 'dark'
+        } else {
+          localStorage.setItem('theme', 'bright');
+          body.classList.remove('dark')
+          body.classList.add('bright')
+          self.theme = 'bright'
         }
       }
 
