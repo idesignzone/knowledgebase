@@ -16,7 +16,7 @@
             </ul>
           </li>
         </ul>
-        <GitLink class="git" />
+<!--        <GitLink class="git" />-->
       </nav>
     </aside>
 </template>

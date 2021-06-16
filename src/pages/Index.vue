@@ -9,7 +9,7 @@
         <Shortcut link="/theme-configuration" text="Configuration" icon="sliders-icon" />
         <Shortcut link="/theme-configuration#changing-colors" text="Design System" icon="eye-icon" />
       </nav>
-      <GitLink class="git" size="large" />
+<!--      <GitLink class="git" size="large" />-->
     </div>
   </Layout>
 </template>
@@ -33,7 +33,7 @@ export default {
   },
   data() {
     return {
-      description: 'Documentation'
+      description: 'KnowledgeBase'
     }
   },
   metaInfo() {
