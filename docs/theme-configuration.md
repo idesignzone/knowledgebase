@@ -80,3 +80,5 @@ Gridbox comes with predefined sidebars. These sidebars will be added to website 
 * Blog Sidebar
 * Portfolio Sidebar
 * Footer Sidebar
+
+## Menus
