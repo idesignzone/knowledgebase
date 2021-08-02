@@ -11,7 +11,13 @@ Gridbox comes with variety of theme options to control different aspects of your
 **Theme General Options**
 
 * **General:** These are Theme General options and are used globally.
+
+![](/theme-general.jpg)
+
 * **Colors:** select the primary and secondary and colors for the theme.
+
+![](/theme-colors.jpg)
+
 * **Buttons:** Select styles for all the buttons.
 * **Social:** Add social media channels
 * **Subscription Modal:** Add a subscription modal to your website.
