@@ -32,7 +32,16 @@ There are 2 steps for setting up your project
 
 ## Domain Structure
 
-Install WordPress on a subdomain and NOT the main domain. For example if your website domain is mywebsite.com, your WordPress installation should be on wordpress.mywebsite.com.   
-This way we reserve the main domain for the front-end that will be deployed on a serverless platform.
+[Install WordPress](https://wordpress.org/support/article/how-to-install-wordpress/) on a subdomain and NOT the main domain. For example if your website domain is mywebsite.com, your WordPress installation should be on wordpress.mywebsite.com. This way we reserve the main domain for the front-end that will be deployed on a serverless platform.
 
-## Domain Structure
+## Installing the theme
+
+After you have installed WordPress, you can start installing Gridsome theme following these steps:
+
+1. In your WordPress admin go to Appearance/Themes - Add New and upload both gridbox-theme and gridbox-child-theme. 
+2. Activate Gridbox Child theme
+3. Go to Appearance/Install Plugins and start Installing required plugins. Make sure plugins are activated.
+
+## Import Demo Data
+
+You can import the demo content shown in the demo to your WordPress installation. To import on of the predefined demos go to Appearance/Import Demo Data and select your ideal demo and click import.
