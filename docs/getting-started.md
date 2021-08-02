@@ -38,10 +38,10 @@ There are 2 steps for setting up your project
 
 After you have installed WordPress, you can start installing Gridsome theme following these steps:
 
-1. In your WordPress admin go to Appearance/Themes - Add New and upload both gridbox-theme and gridbox-child-theme. 
+1. In your WordPress admin go to Appearance/Themes - Add New and upload both gridbox-theme and gridbox-child-theme.
 2. Activate Gridbox Child theme
 3. Go to Appearance/Install Plugins and start Installing required plugins. Make sure plugins are activated.
 
 ## Import Demo Data
 
-You can import the demo content shown in the demo to your WordPress installation. To import on of the predefined demos go to Appearance/Import Demo Data and select your ideal demo and click import.
+You can import the demo content shown in the demo to your WordPress installation. To import one of the predefined demos go to Appearance/Import Demo Data and select your ideal demo and click import.
