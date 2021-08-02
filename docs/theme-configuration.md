@@ -82,3 +82,10 @@ Gridbox comes with predefined sidebars. These sidebars will be added to website 
 * Footer Sidebar
 
 ## Menus
+
+Gridbox comes with 2 menu locations. If you have imported the demo content, demo menus are already created and assigned to these locations. If you have not imported the demo content you can go to Appearance/Menus and create a new menu and assign it to one of the available locations. 
+
+**Available Menu Locations**
+
+* Header Menu
+* Off-Canvas Menu
