@@ -27,7 +27,7 @@ Gridbox comes with variety of theme options to control different aspects of your
 
 **Title Area**
 
-customize the Title Area for post pages and archives. 
+customize the Title Area for post pages and archives.
 
 **Blog**
 
@@ -46,11 +46,25 @@ Options for styling text on the website.
 
 Customize the footer
 
+## Post Types
+
+There are custom post types that are added to your WordPress after installing Gridbox theme. Each of the posts types comes with its own details that you define when creating a new post type for one of the available options below:
+
+**Available Post Types**
+
+* Services
+* Prices
+* Teams
+* Testimonials
+* Slides
+* Clients
+* Projects
+
 ## Gutenberg Blocks
 
-**Creating and editing pages:** 
+**Creating and editing pages:**
 
-To create a page go to Pages/Add new and create a new page. After you have created the page you can start adding blocks to design your page. Gridbox comes with a number of custom blocks that you can add to your pages with WordPress Gutenberg editor. To edit a page simply click on one of the blocks you want to edit and change its content. 
+To create a page go to Pages/Add new and create a new page. After you have created the page you can start adding blocks to design your page. Gridbox comes with a number of custom blocks that you can add to your pages with WordPress Gutenberg editor. To edit a page simply click on one of the blocks you want to edit and change its content.
 
 **Available Blocks**
 
@@ -59,8 +73,8 @@ To create a page go to Pages/Add new and create a new page. After you have creat
 * Service
 * Pricing
 * Team
-* Testimonial 
-* News 
+* Testimonial
+* News
 * Contact
 * Slideshow
 * Video
@@ -72,7 +86,7 @@ To create a page go to Pages/Add new and create a new page. After you have creat
 
 ## Sidebars & Widgets
 
-Gridbox comes with predefined sidebars. These sidebars will be added to website pages according user selection. 
+Gridbox comes with predefined sidebars. These sidebars will be added to website pages according user selection.
 
 **Available Sidebars**
 
@@ -83,7 +97,7 @@ Gridbox comes with predefined sidebars. These sidebars will be added to website 
 
 ## Menus
 
-Gridbox comes with 2 menu locations. If you have imported the demo content, demo menus are already created and assigned to these locations. If you have not imported the demo content you can go to Appearance/Menus and create a new menu and assign it to one of the available locations. 
+Gridbox comes with 2 menu locations. If you have imported the demo content, demo menus are already created and assigned to these locations. If you have not imported the demo content you can go to Appearance/Menus and create a new menu and assign it to one of the available locations.
 
 **Available Menu Locations**
 
