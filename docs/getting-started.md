@@ -25,11 +25,14 @@ Traditional [WordPress](https://wordpress.org/ "WordPress") consist of the admin
 
 ## Installation
 
-There are 2 major stages for setting up your project
+There are 2 steps for setting up your project
 
-1. [Installing WordPress](https://wordpress.org/support/article/how-to-install-wordpress/) and configuring the back-end
+1. [Installing WordPress](https://wordpress.org/support/article/how-to-install-wordpress/) and configuring Gridbox Theme
 2. [Running Gridsome](https://gridsome.org/docs/gridsome-cli/) front-end
 
-## Online installation
+## Domain Structure
 
-There are plenty of options when it comes to deploying your application online and I am going to walk you through few of the best options available.
+Install WordPress on a subdomain and NOT the main domain. For example if your website domain is mywebsite.com, your WordPress installation should be on wordpress.mywebsite.com.   
+This way we reserve the main domain for the front-end that will be deployed on a serverless platform.
+
+## Domain Structure
