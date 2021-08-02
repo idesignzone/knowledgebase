@@ -45,3 +45,5 @@ After you have installed WordPress, you can start installing Gridsome theme foll
 ## Import Demo Data
 
 You can import the demo content shown in the demo to your WordPress installation. To import one of the predefined demos go to Appearance/Import Demo Data and select your ideal demo and click import.
+
+After you have imported the demo content, you can delete "**One Click Demo Import"** plugin as we don't need it anymore.
