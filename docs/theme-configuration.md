@@ -45,3 +45,27 @@ Options for styling text on the website.
 **Footer**
 
 Customize the footer
+
+## Blocks
+
+**Creating and editing pages:** 
+
+To create a page go to Pages/Add new and create a new page. After you have created the page you can start adding blocks to design your page. Gridbox comes with a number of custom blocks that you can add to your pages with WordPress Gutenberg editor. To edit a page simply click on one of the blocks you want to edit and change its content. 
+
+**Available Blocks**
+
+* Hero
+* About
+* Service
+* Pricing
+* Team
+* Testimonial 
+* News 
+* Contact
+* Slideshow
+* Video
+* Call to action
+* Client
+* Portfolio
+* Gallery
+* Content
