@@ -46,7 +46,7 @@ Options for styling text on the website.
 
 Customize the footer
 
-## Blocks
+## Gutenberg Blocks
 
 **Creating and editing pages:** 
 
@@ -69,3 +69,14 @@ To create a page go to Pages/Add new and create a new page. After you have creat
 * Portfolio
 * Gallery
 * Content
+
+## Sidebars & Widgets
+
+Gridbox comes with predefined sidebars. These sidebars will be added to website pages according user selection. 
+
+**Available Sidebars**
+
+* Main Sidebar
+* Blog Sidebar
+* Portfolio Sidebar
+* Footer Sidebar
