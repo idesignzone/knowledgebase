@@ -32,3 +32,5 @@ Add these build settings:
 * **Publish directory:**`dist`
 
 And click `Deploy Site` to deploy your application.
+
+## Deploy to Vercel
